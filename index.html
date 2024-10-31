@@ -7,22 +7,24 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-grey p-8">
    <Header>
-<nav class="flex w-full justify-between p-8 text-3xl bg-indigo-500">
+<nav class="flex w-full justify-between text-xxl wt-bg-gray-lighter">
     <div>Gulmina Ayaz</div>
-    <div>About me</div>
-<div>Projects</div>
-<div>Resume</div>
-<div>Skills</div>
-<div>Contact</div>
+  <div class="flex gap-4"><div > <a href="#aboutme">About me</a></div>
+  <div > <a href="#projects">
+    Projects
+  </a></div>
+  <div>Resume</div>
+  <div>Skills</div>
+  <div>Contact</div></div>  
 </nav>
    </Header> 
-   <main class=" border border-2 m-20 p-32">
+   <main class=" border border-2">
    
-    <div class="p-16">
-        Hi  <img class="w-20 h-20" src="mypic.jpeg" alt="my-pic"/>,
-        <h2 class="text-2xl m-4 bold">I'm Gulmina Ayaz</h2>
+    <div id="aboutme">
+        Hi  <img class="w-20 h-20" src="images/mypic.jpeg" alt="my-pic"/>,
+        <h2 class="text-2xl">I'm Gulmina Ayaz</h2>
         <p> I am a full-stack Web developer passionate about providing excellent solutions to complex problems. 
 
             My background in computer science led me to a full-stack web development boot camp, where I gained knowledge of JavaScript, React, Node.js, MongoDB, and more. As a result of these skills, I have been able to apply them in projects such as JourneyPack, an AI-powered e-commerce platform.
@@ -30,35 +32,38 @@
             As a web developer, I specialize in turning client ideas into reality through exceptional web applications. My main passion is technology. I am an avid learner and I thrive in a team-oriented, agile environment. In the end, my goal is to create products that exceed expectations not only in terms of quality but also in terms of functionality</p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8 text-center text-3xl p-8">
+    <div class="grid grid-cols-1 gap-10 text-center text-3xl">
        <h1>My Skills</h1> 
        <div class="grid grid-cols-6">
-           <div class="border-0  w-20 h-40"><img src="css3.jpg"/><br>HTML</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>CSS</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>JavaScript</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Node.js</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Express</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>React</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>MongoDB</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>MySql</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Thailwind Css</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>RestfulAPIs</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Agile Methodologies</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Git</div>
-           <div class="border-0 w-20 h-40"><img src="css3.jpg"/><br>Github</div>
+           <div class="border-0  w-20 h-50 p-2"><img src="images/html.png"/><br>HTML</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/css3.jpg"/><br>CSS3</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/js.png"/><br>JavaScript</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/nodejs.png"/><br>Node.js</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/express.jpeg"/><br>Express</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/react.png"/><br>React</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/mongodb.png"/><br>MongoDB</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/mysql.png"/><br>MySql</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/thailwind2.jpeg"/><br>Thailwind Css</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/restful api's.png"/><br>RestfulAPIs</div>
+           
+           <div class="border-0 w-20 h-50 p-2"><img src="images/git.png"/><br>Git</div>
+           <div class="border-0 w-20 h-50 p-2"><img src="images/github2.png"/><br>Github</div>
        </div>
 
     </div>
 
-    <div class="grid grid-cols-1 gap-8 text-center text-3xl p-8">
+    <div  id="projects" class="grid grid-cols-1 gap-10 text-center text-3xl" >
+      
         <h1>My Projects</h1> 
-        <div>
-<div>JourneyPack</div>
-<div>PokoFight</div>
-<div>TodoList</div>
+        <div class="grid grid-cols-3 ">
+<div class="border-2 p-8"><h3>JourneyPack</h3><img class="w-20 h-20" src="" alt="JourneyPack-pic"></div>
+<div class="border-2 p-8"><h3>PokoFight</h3><img class="w-20 h-20" src="" alt="pokofight"/></div>
+<div class="border-2 p-8"><h3>TodoList</h3><img class="w-20 h-20" src="" alt="todolist"/></div>
 
         </div>
 
+
+     
     </div>
 
     <div>
